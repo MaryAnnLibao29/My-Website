@@ -1,0 +1,123 @@
+*{
+	margin: 5;
+	padding: 0;		
+}
+
+header {
+	background: url("img/1.jpg");
+	background-size:cover;
+	height: 100%;
+	width: 100%;
+	background-position:center;
+}
+
+.navbar{
+	float: right;
+	list-style: none;
+	margin-top: 3px;
+}
+
+.navbar li{
+	display: inline-block;
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+	padding: 0px 5px;
+	font-family:poppins;
+	font-size: 20px;
+}
+
+.navbar li a:hover{
+	background: pink;
+	color: #333;
+}
+.text h1{
+	text-align:left;
+	margin-top: 0px;
+	margin-left: 5px;
+	color: pink;
+	font-family: 'Lemonada', cursive;
+	font-weight: light;
+	font-size: 20px;
+}
+
+.text h3{
+	text-align:center;
+	margin-top: 0px;
+	color: white;
+	font-family: 'Lemonada', cursive;
+	font-size: 50px;
+}
+
+.b-btun{
+	margin-top: 50px;
+	padding: 20px;
+	text-allign: right;
+	background: white;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	overflow: hidden;
+}
+
+.b-btun input{
+	display: block;
+	width: 100%;
+	padding: 0 16px;
+	height: 44px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+.b-bttn{
+	margin: 5px;
+	margin-bottom: 20px;
+	background: pink;
+	color: #fff;
+	cursor-pointer;
+	transition: 0.8s;
+}
+.b-bttn:hover{
+	transform: scale(0.96);
+}
+.b-btun a{
+	text-decoration: none;
+	color: #fff;
+	font-family:poppins;
+	font-size: 14px;
+	padding: 10px;
+	transition: 0.08s;
+}
+
+.b-btun a:hover{
+	background: rgba(0,0,0,.3);
+}
+
+.bar{
+	position: absolute;
+	top: 90%;
+	left: 18%;
+	transform: translateX(-50%) translateY(-50%)
+}
+
+li{
+	display: inline-block;
+}
+
+li b{
+	color: black;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-family: poppins;
+	font-weight: heavy;
+	font-size: 20px;
+}
+
+li b:hover{
+	background: pink;
+	color: #333;
+}
